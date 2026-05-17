@@ -7,7 +7,7 @@ on:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: cpu-minimal-amd64-onprem
     steps:
       - uses: actions/checkout@v4
 
