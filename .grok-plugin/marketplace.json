@@ -11,8 +11,7 @@
       "category": "deployment",
       "source": {
         "source": "url",
-        "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63"
+        "url": "https://github.com/vercel/vercel-plugin.git"
       },
       "homepage": "https://github.com/vercel/vercel-plugin"
     }
