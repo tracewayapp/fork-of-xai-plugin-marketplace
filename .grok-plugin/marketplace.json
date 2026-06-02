@@ -22,10 +22,10 @@
       "category": "monitoring",
       "source": {
         "source": "url",
-        "url": "https://github.com/getsentry/sentry-for-claude.git",
-        "sha": "fb398fdfff2055abc3d55917f6b6f0c0d5ad5e3b"
+        "url": "https://github.com/getsentry/sentry-for-ai.git",
+        "sha": "849303a8411c242d250885ffe714235a3bc2f5fe"
       },
-      "homepage": "https://github.com/getsentry/sentry-for-claude"
+      "homepage": "https://github.com/getsentry/sentry-for-ai"
     },
     {
       "name": "chrome-devtools",
