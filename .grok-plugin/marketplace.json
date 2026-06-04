@@ -14,7 +14,8 @@
         "url": "https://github.com/vercel/vercel-plugin.git",
         "sha": "61f1903bed7b322c9745f6ba67095bc006de7e63"
       },
-      "homepage": "https://github.com/vercel/vercel-plugin"
+      "homepage": "https://github.com/vercel/vercel-plugin",
+      "keywords": ["vercel", "vercel.com", "vercel deploy", "deploy to vercel"]
     },
     {
       "name": "sentry",
@@ -25,7 +26,8 @@
         "url": "https://github.com/getsentry/sentry-for-ai.git",
         "sha": "849303a8411c242d250885ffe714235a3bc2f5fe"
       },
-      "homepage": "https://github.com/getsentry/sentry-for-ai"
+      "homepage": "https://github.com/getsentry/sentry-for-ai",
+      "keywords": ["sentry", "sentry.io"]
     },
     {
       "name": "chrome-devtools",
@@ -36,7 +38,8 @@
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
         "sha": "a1612be8e01401cf1711c64bc2ef5da5763ba956"
       },
-      "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
     },
     {
       "name": "cloudflare",
@@ -47,7 +50,8 @@
         "url": "https://github.com/cloudflare/skills.git",
         "sha": "60147cbb773649eadca89cee92b4e0caf02234b4"
       },
-      "homepage": "https://github.com/cloudflare/skills"
+      "homepage": "https://github.com/cloudflare/skills",
+      "keywords": ["cloudflare", "cloudflare.com", "wrangler", "cloudflare workers"]
     },
     {
       "name": "superpowers",
@@ -58,7 +62,8 @@
         "url": "https://github.com/obra/superpowers.git",
         "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc"
       },
-      "homepage": "https://github.com/obra/superpowers"
+      "homepage": "https://github.com/obra/superpowers",
+      "keywords": ["superpowers"]
     }
   ]
 }
