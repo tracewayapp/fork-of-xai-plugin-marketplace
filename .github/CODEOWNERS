@@ -1,4 +1,3 @@
 # Every change to the official marketplace requires code-owner review.
-# Replace @ykeremy with the appropriate xAI team handle (e.g. @xai-org/grok-cli)
-# once one exists. Enforced by branch protection: "Require review from Code Owners".
-* @ykeremy
+# Enforced by branch protection: "Require review from Code Owners".
+* @xai-org/grok-build-team
