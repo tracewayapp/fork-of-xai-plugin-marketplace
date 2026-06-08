@@ -1,0 +1,3 @@
+# Every change to the official marketplace requires code-owner review.
+# Enforced by branch protection: "Require review from Code Owners".
+* @xai-org/grok-build-team
