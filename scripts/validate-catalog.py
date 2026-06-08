@@ -14,9 +14,9 @@ every user who installs or updates that plugin. Pinning to a specific
 commit + content-verifying it at install time is the only thing that
 survives that class of attack.
 
-The runtime side lives in xai-org/xai (xai-grok-agent::plugins::git_install)
-and verifies `git rev-parse HEAD == sha` after clone — these two layers
-together give us content-addressable plugin pinning.
+The runtime side (the Grok CLI plugin installer) verifies
+`git rev-parse HEAD == sha` after clone — these two layers together give
+us content-addressable plugin pinning.
 
 Run locally:    python3 scripts/validate-catalog.py
 """
@@ -30,7 +30,7 @@ from pathlib import Path
 
 SHA_RE = re.compile(r"^[0-9a-f]{40}$")
 
-# Lookup order matches xai-grok-plugin-marketplace::index::load_index.
+# Lookup order matches the marketplace index loader in the Grok CLI.
 CATALOG_PATHS = [
     Path(".grok-plugin/marketplace.json"),
     Path(".claude-plugin/marketplace.json"),
